@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-// TODO: get these to work
 import Header from './Header'
 import Footer from './Footer'
 import Home from './pages/Home';
@@ -9,29 +8,29 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  // const [currentPage, setCurrentPage] = useState('Home');
 
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Blog') {
-      return <Blog />;
-    }
-    return <Contact />;
-  };
+  // const renderPage = () => {
+  //   if (currentPage === 'Home') {
+  //     return <Home />;
+  //   }
+  //   if (currentPage === 'About') {
+  //     return <About />;
+  //   }
+  //   if (currentPage === 'Blog') {
+  //     return <Blog />;
+  //   }
+  //   return <Contact />;
+  // };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Header />
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-      <Footer />
-    </div>
+    // <div>
+    //   <Header />
+    //   <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+    //   {renderPage()}
+    //   <Footer />
+    // </div>
   );
 }
