@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hoefer-react-portfolio/static/css/main.62dc5b40.css",
-    "main.js": "/hoefer-react-portfolio/static/js/main.cb3e3285.js",
-    "index.html": "/hoefer-react-portfolio/index.html",
-    "main.62dc5b40.css.map": "/hoefer-react-portfolio/static/css/main.62dc5b40.css.map",
-    "main.cb3e3285.js.map": "/hoefer-react-portfolio/static/js/main.cb3e3285.js.map"
+    "main.css": "/static/css/main.62dc5b40.css",
+    "main.js": "/static/js/main.c78c73ba.js",
+    "index.html": "/index.html",
+    "main.62dc5b40.css.map": "/static/css/main.62dc5b40.css.map",
+    "main.c78c73ba.js.map": "/static/js/main.c78c73ba.js.map"
   },
   "entrypoints": [
     "static/css/main.62dc5b40.css",
-    "static/js/main.cb3e3285.js"
+    "static/js/main.c78c73ba.js"
   ]
 }
