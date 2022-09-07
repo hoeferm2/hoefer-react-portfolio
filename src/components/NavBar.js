@@ -9,16 +9,16 @@ import NavTabs from "./NavTabs";
 export default function NavBar() {
     return (
         <div className="navbar">
-        <a href="/about" className="homelink">About</a>
+        <a href="/hoefer-react-portfolio/about" className="homelink">About</a>
         <ul>
             <li>
-                <a href="/blog">Blog</a>
+                <a href="/hoefer-react-portfolio/blog">Blog</a>
             </li>
             <li>
-                <a href="/projects">Projects</a>
+                <a href="/hoefer-react-portfolio/projects">Projects</a>
             </li>
             <li>
-                <a href="/contact">Contact Me</a>
+                <a href="/hoefer-react-portfolio/contact">Contact Me</a>
             </li>
         </ul>
         </div>
