@@ -6,7 +6,7 @@ export default function About() {
     <div className='pages'>
       <h1>About Page</h1>
       <div id= "small-boi-boi" className='about'>
-      <img src='public\images\projects\IMG_0170.JPG' alt='Mathhew Hoefer' className='profile'/>
+      <img src='../../images/projects/IMG_0170.JPG' alt='Mathhew Hoefer' className='profile'/>
       <p class="life-story"> Matthew Hoefer was born in Seattle, Washington on December 30th, 1989. He was very
                 interested in
                 videogames and comic books growing up and loved to draw. After graduating from Roosevelt high school
