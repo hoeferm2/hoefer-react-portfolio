@@ -13,13 +13,12 @@ function App() {
    <Router>
         <Header/>
         <NavBar/>
-
         <Routes>
             <Route path="/" element= {<About/>}></Route>
-            <Route path="/about" element= {<About/>}></Route>
-            <Route path="/blog" element= {<Blog/>}></Route>
-            <Route path="/contact" element= {<Contact/>}></Route>
-            <Route path="/projects" element= {<Projects/>}></Route>
+            <Route path="/hoefer-react-portfolio//about" element= {<About/>}></Route>
+            <Route path="/hoefer-react-portfolio//blog" element= {<Blog/>}></Route>
+            <Route path="/hoefer-react-portfolio//contact" element= {<Contact/>}></Route>
+            <Route path="/hoefer-react-portfolio//projects" element= {<Projects/>}></Route>
         </Routes>
         <Footer/>
         </Router>
