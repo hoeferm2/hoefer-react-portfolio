@@ -8,16 +8,12 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header"
 import Footer from "./components/Footer";
 
-
-
-   
-  
 function App() {
    return(
    <Router>
         <Header/>
         <NavBar/>
-        <div>
+
         <Routes>
             <Route path="/" element= {<About/>}></Route>
             <Route path="/about" element= {<About/>}></Route>
@@ -25,32 +21,9 @@ function App() {
             <Route path="/contact" element= {<Contact/>}></Route>
             <Route path="/projects" element= {<Projects/>}></Route>
         </Routes>
-        </div>
         <Footer/>
         </Router>
    )
     
 }
-
 export default App;
-
-
- // switch (window.location.pathname) {
-    //     case "/":
-    //         component = <About/>
-    //         break
-    //         case "/about":
-    //         component = <About/>
-    //         break
-    //             case "/blog":
-    //             component = <Blog/>
-    //             break
-    //             case "/projects":
-    //             component = <Projects/>
-    //             break
-    //             case "/contact":
-    //             component = <Contact/>
-    //             break
-
-    // }
-    // return (

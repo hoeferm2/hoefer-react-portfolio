@@ -1,6 +1,7 @@
 {
+  "homepage": " http://hoeferm2.github.io/hoefer-react-portfolio/",
   "name": "portfolio-app",
-  "homepage": " https://hoeferm2.github.io/hoefer-react-portfolio/",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
