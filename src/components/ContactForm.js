@@ -8,7 +8,7 @@ export default function ContactForm() {
     const [email, setEmail] = useState(" ")
     const [message, setMessage] = useState(" ")
   return (
-    <div>
+    <div className='form'>
     <div className='formGroup'>
         <form>
             <div>
@@ -34,7 +34,7 @@ export default function ContactForm() {
  <div className='formGroup'>
      <form>
          <div>
-             <label htmlFor='message'>Message
+             <label className='message' htmlFor='message'>Message
                  <input type="text" id="message" name="message" value={message}
                  onChange= {e => setMessage(e.target.value)}/>
              </label>
