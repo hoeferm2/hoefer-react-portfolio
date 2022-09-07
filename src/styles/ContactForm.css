@@ -1,0 +1,21 @@
+
+
+.form {
+    width: 100%;
+    justify-content: center;
+};
+
+.formGroup {
+    width: 100%;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+.message input {
+    height: 200px;
+}
+

@@ -9,13 +9,10 @@ import NavTabs from "./NavTabs";
 export default function NavBar() {
     return (
         <div className="navbar">
-        <a href="/" className="homelink">Home</a>
+        <a href="/about" className="homelink">About</a>
         <ul>
             <li>
                 <a href="/blog">Blog</a>
-            </li>
-            <li>
-                <a href="/about">About</a>
             </li>
             <li>
                 <a href="/projects">Projects</a>
