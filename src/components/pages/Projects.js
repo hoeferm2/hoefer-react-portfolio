@@ -24,13 +24,13 @@ export default function Projects() {
 <div id="small-boi">
     <a href="https://github.com/hoeferm2/E-commerce-back-end-build" class="project-link" alt="Social Emotional Learning">
         <header>E-Commerce Back End</header>
-        <img src="../../images/projects/Capture.png" alt="Male experiencing sadness" />
+        <img src="https://miro.medium.com/max/1200/1*SwFB1o_k1LGprN-XRUZQ8w.jpeg" alt="Male experiencing sadness" />
     </a>
 </div>
 <div id="small-boi">
     <a href="https://hoeferm2.github.io/password-debug-challenge/" class="project-link" alt="Password Generator">
         <header>Password Generator</header>
-        <img src="../../images/projects/password.png" alt="Password Generator." />
+        <img src="https://resources.infosecinstitute.com/wp-content/uploads/2020/10/password-cracking-02222013.jpg" alt="Password Generator." />
     </a>
 </div>
 <div id="small-boi">
