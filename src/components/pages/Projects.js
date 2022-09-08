@@ -36,12 +36,12 @@ export default function Projects() {
 <div id="small-boi">
     <a href="https://techque-deque-blog.herokuapp.com/" class="project-link" alt="Tech blog">
         <header>Tech blog</header>
-        <img src="../../images/projects/Blog.png" alt="Tech blog." />
+        <img src="https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg" alt="Tech blog." />
     </a>
 </div>
 <div id="small-boi">
     <a href="https://liftr-app.netlify.app/" class="project-link" alt="Cultural Exchanges">
-        <header>Command Line Program</header>
+        <header>Liftr Application</header>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lasha_Talakhadze_Rio_2016.jpg/1200px-Lasha_Talakhadze_Rio_2016.jpg" alt="Two people of different cultures sharing tea." />
     </a>
 </div>
